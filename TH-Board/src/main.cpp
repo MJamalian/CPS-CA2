@@ -12,7 +12,7 @@ void setup()
 {
     Wire.begin();
     Serial.begin(9600);
-    delay(300);
+    delay(1000);
 }
 void loop()
 {
@@ -59,6 +59,4 @@ void loop()
 
         isChanged = false;
     }
-
-    delay(300);
 }
